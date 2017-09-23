@@ -1,0 +1,67 @@
+{
+    "author": "chops",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "heiroglyph",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "heiroglyph",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "hrcol",
+            "mincol",
+            "seccol",
+            "secs",
+            "background"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/menu.png",
+                    "menuIcon": true,
+                    "name": "MENU_IMAGE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-0",
+                    "name": "IMAGE_BACKGROUND",
+                    "targetPlatforms": [
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-2",
+                    "name": "IMAGE_BACKGROUND2",
+                    "targetPlatforms": [
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-1",
+                    "name": "IMAGE_BACKGROUND1",
+                    "targetPlatforms": [
+                        "chalk"
+                    ],
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "chalk"
+        ],
+        "uuid": "f6600897-c32b-40f8-9d5a-ad497675d6d4",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
